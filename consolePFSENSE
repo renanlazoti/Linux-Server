@@ -1,0 +1,12 @@
+Configurando o console Pfsense
+    Opção 2, ENTER
+        Opção 2, ENTER
+            Digitar o endereço 172.16.1.254, ENTER
+                24, ENTER
+                    ENTER
+                        ENTER  
+                            Y, ENTER
+                                Faixa inicial: 172.16.1.100, ENTER
+                                    Faixa final: 172.16.1.150, ENTER
+                                        Y, ENTER
+                                            

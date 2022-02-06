@@ -1,0 +1,41 @@
+Criação VM Linux Mint
+    Tipo: Linux
+        Versão: Ubuntu (64-bit)
+            Minimo 1024, recomendado:2048
+                Criar um disco rigido virtual agora
+                    VDI
+                        Dinamicamente alocado
+                            HD de 50gb
+                                Criar
+
+
+Configurações
+    Geral
+        Avançado
+            Area de transferencia compartilhada: Bi-direcional
+                Arrastar e soltar (D): Bi-direcional
+                    Sistema
+                        Desabilitar relogio da Maquina
+                            Mais um nucleo de processador
+                                Habilitar PAE/Nx
+                                    Monitor
+                                        Aumentar a memoria de video
+                                            Rede
+                                                Modo Rede interna
+                                                    Ok
+                                                        Iniciar a maquina, e terminar as configurações do PFsense via LIVECD
+
+
+Botao direito em rede
+    Network Settings
+        Conferir se voce pegou o ip do seu firewall
+
+
+Abrir terminal
+    Ping 172.16.1.254
+
+
+
+                                            
+
+

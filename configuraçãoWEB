@@ -1,0 +1,33 @@
+Pesquisar http://172.16.1.254
+    usuario: admin // senha: pfsense
+        Next
+            Next
+                Hostname: firewall
+                    Domain: senac.intra
+                        Primary DNS Server: 8.8.8.8
+                            Secondary DNS Server: 8.8.4.4
+                                Desmarcar opção Override DNS
+                                    Next
+                                        Time server hostname: a.st1.ntp.br
+                                            Timezone: America/Sao_Paulo
+                                                Next
+                                                    Ir até o final, desmarcar Block RFC1918 E Bogon (SÓ NO CENÁRIO DE APRENDIZAGEM)
+                                                        Next
+                                                            Next
+                                                                Definir senha
+                                                                    Next
+                                                                        Reload 
+                                                                            Finish
+                                                                                Acept
+
+
+Teste, voltar no firewall
+    Opção 7
+        google.com
+            Se pingar o google ta tudo certo
+                Pingar também no terminal do Linux Mint
+
+
+Fazer a instalação normal do Linux Mint
+
+
