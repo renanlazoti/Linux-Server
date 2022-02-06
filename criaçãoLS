@@ -1,0 +1,45 @@
+Criando o firewall
+    Tipo: BSD
+        Versão: FreeBSD (64-bit)
+            Memoria recomendada 1024
+                Criar um novo disco rigido virtual agora
+                    VDI
+                        Dinamicamente alocado
+                            16 GB é mais que suficiente, pois o firewall nao ocupa muito espaço
+                                Criar
+
+
+Configurações 
+    Sistema 
+        Adicionar mais um nucleo de processador
+            Habilitar PAE/Nx
+                Monitor
+                    Aumentar a memoria de video
+                        Audio
+                            Desativar audio, servidores não precisam de audio
+                                Rede
+                                    Ativar duas placas de rede, sendo uma modo NAT (WAN), e a segunda placa Rede interna (LAN)
+                                        Ok
+
+
+Instalação do firewall
+    Acrescentar a ISO do Pfsense e aguardar
+        ENTER para Aceitar
+            ENTER para Install
+                Selecionar o seu teclado e apertar ENTER (BRAZILIAN ACCENT KEYS se seu teclado for ABNT), apertar ENTER na opção "Continue with seuteclado"
+                    ENTER para ok, na parte de particionamento
+                        ENTER
+                            ENTER no redundancy
+                                SPACE para selecionar o HD e ENTER
+                                    YES e ENTER
+                                        Aguardar a instalação do Pfsense
+                                            NO e ENTER
+                                                ENTER para REBOOT
+                                                    O virtual box tem um bug, entao apos desligar, ir em dispositivos, discos opticos e desmarcar o pfsense, porque se nao vai ficar um looping na instalação
+                                                        Após isso, Maquina e reinicializar, aguardar
+                                                            Agora configurar pelo console
+
+
+
+
+                                     
