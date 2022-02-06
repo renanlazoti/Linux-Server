@@ -28,6 +28,19 @@ Teste, voltar no firewall
                 Pingar também no terminal do Linux Mint
 
 
-Fazer a instalação normal do Linux Mint
+Fazer a instalação normal do Linux Mint, atualizar e instalar os convidados
+
+
+Acessar o firewall pela WEB para as configurações do Dashboard
+    System
+        General Setup
+            WebConfigurator
+                Theme: pfsense-dark
+                    Top navigation: Scrolls with page
+                        Hostname in menu: Fully Qualified Domain Name
+                            Dashboard columns: 3
+                                Interfaces Sort: ON
+                                    Associated Panels Show/Hide: ON, ON, ON, ON
+                                        
 
 
