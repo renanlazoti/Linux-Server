@@ -41,6 +41,116 @@ Acessar o firewall pela WEB para as configurações do Dashboard
                             Dashboard columns: 3
                                 Interfaces Sort: ON
                                     Associated Panels Show/Hide: ON, ON, ON, ON
-                                        
+                                        Login Hostname: ON
+                                            Save
+                                                Fazer logon e voltar para atualizar as configurações feitas
+
+
+Desativar verificação de atualização
+    System
+        Update
+            Update settings
+                Dashboard check: ON
+
+
+Tirar Netgate services and support
+
+
+Available widgests
+Left(Esquerda):
+    Picture: ON
+        Arrastar pra cima do system information 
+            Baixar uma imagem do logo da empresa
+                Adicionar titulo
+                    Localizar a imagem baixada 
+                        Save
+    
+Center(Centro):
+    Interfaces: ON
+        Editar (no icone da chave inglesa)
+
+    
+    Gateways: ON
+        Editar 
+            Marcar a opção Both
+                Desmarcar a opção WAN_DHCP6
+                    Save
+    
+
+    Interfaces Statistics: ON
+
+    
+    Traffic Graphs: ON
+
+
+    Services Status: ON
+
+
+Right(Direita):
+
+    NTP Status: ON
+
+
+    Dynamic DNS Status: ON
+
+
+    IPsec: ON
+
+
+    OpenVPN: ON
+
+
+    Firewall Logs: ON
+        Editar
+            Number of entries: MAX(20)
+                Filter actions: ON, ON, ON
+                    Filter interface: ALL
+                        Update interval: 1
+                            Save
+
+
+System 
+    Advanced 
+        Secure Shell
+            Secure Shell server: ON
+                SSHD Key only: Password or Public Key
+                    Allow agent forwarding: OFF
+                        SSH port: 22
+                            Console options
+                                Console menu: ON
+                                    Save
+                                        Aguardar os 20 seg, para pagina reinicializar
+
+
+
+Terminal
+    ssh admin@172.16.1.254
+        yes
+            Para acessar o firewall remotamente
+                Para sair, opção 0
+
+Status
+    System logs
+        Vai mostrar todos os logs no sistema
+            Advanced log filter
+                Process: sshd
+                    Apply filter
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
 
 
